@@ -1,0 +1,136 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.tab-content {
+    display: none;
+}
+
+/* Додаткові стилі для каруселі відгуків */
+/* Додаткові стилі для каруселі і відгуків */
+
+.carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin: 20px 0; /* Додайте відступ зверху і знизу для кращого вигляду */
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    margin-right: 20px;
+    transition: transform 0.5s ease-in-out; /* Додайте плавну анімацію для переходів */
+}
+
+/* Додайте стилі для стрілок (якщо ви хочете додати стрілки для перегляду) */
+
+.carousel-prev,
+.carousel-next {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Стилі для блоку вибору послуг */
+
+.service-selection {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Відступ зверху для відокремлення від інших елементів */
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-item {
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 300%; /* Кількість слайдів у каруселі */
+}
+
+.carousel-prev,
+.carousel-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #333;
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}
+
+/* Додаткові стилі для області вибору послуг */
+
+.service-selection {
+    margin-top: 20px;
+}
+
+.service-selection h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.service-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.service-option {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.service-option:hover {
+    background-color: #ddd;
+}
